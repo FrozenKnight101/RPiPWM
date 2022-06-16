@@ -4,9 +4,9 @@ GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BOARD)
 
-LED = 12
-Trig = 16 
-Echo = 18 
+LED = 7
+Trig = 36 
+Echo = 38 
 
 GPIO.setup(LED,GPIO.OUT)
 GPIO.setup(Trig,GPIO.OUT) 
